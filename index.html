@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9ce36231fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header"> <h1>CALCULATOR</h1> </header>
+<form>
+    <div class="input-areas container-fluid">
+        <div class="row">
+            <div class="row row-col-sm-12 row-col-md-6 row-col-lg-2 ">
+                    <div class="num-1-input row row-col-sm-12 row-col-md-6 row-col-lg-2">
+                        <input type="number" id="num-1" name="num-1" value="First Number"><br>
+                    </div>
+                    <div class="num-2-input row row-col-sm-12 row-col-md-6 row-col-lg-2">
+                        <input type="number" id="num-2" name="num-2" value="Second Number"><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-calc-buttons container-fluid">
+        <div class="row">
+            <div class="plus-btn col-sm-12 col-md-6 col-lg-3">
+                <button type="button" id="plusbtn" class= "btn-outline-success"><i class="fa-solid fa-plus fa-2xl"></i></button>
+            </div>
+            <div class="minus-btn col-sm-12 col-md-6 col-lg-3">
+                <button type="button" class="btn-outline-success"><i class="fa-solid fa-minus fa-2xl"></i></button>
+            </div>
+            <div class="multiply-btn col-sm-12 col-md-6 col-lg-3">
+                <button type="button" class="btn-outline-success"><i class="fa-solid fa-x fa-2xl"></i></button>
+            </div>
+            <div class="divide-btn col-sm-12 col-md-6 col-lg-3">
+                <button type="button" class="btn-outline-success"><i class="fa-solid fa-divide fa-2xl"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container overflow-hiddn text-center">
+        <div class="row">
+            <div class="return-result plus-btn col-sm-12 col-md-6 col-lg-3">
+                <h4>The result:</h4>
+                <div class="col-12">
+                    <h2 id="displayresult"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script></body>
+<script src="script.js"></script>
+</html>
